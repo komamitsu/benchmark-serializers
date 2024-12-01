@@ -33,16 +33,18 @@ Vendor ID:                AuthenticAMD
     ...
 ```
 
+Benchmark revision: https://github.com/komamitsu/benchmark-serializers/commit/ab980081f4e4baa9466a3575b368a5c062c44764
+
 ```
 Benchmark                                                    Mode  Cnt     Score     Error   Units
-BenchWithMediaItem.readMediaItemFromCbor                    thrpt    4   661.358 $B!^(B  39.717  ops/ms
-BenchWithMediaItem.readMediaItemFromFuryJavaWithCodeGen     thrpt    4  6534.142 $B!^(B 368.589  ops/ms
-BenchWithMediaItem.readMediaItemFromFuryJavaWithoutCodeGen  thrpt    4  3640.171 $B!^(B  37.897  ops/ms
-BenchWithMediaItem.readMediaItemFromFuryXlang               thrpt    4  4335.869 $B!^(B  41.599  ops/ms
-BenchWithMediaItem.readMediaItemFromJsonString              thrpt    4   536.589 $B!^(B  15.837  ops/ms
-BenchWithMediaItem.writeMediaItemToCbor                     thrpt    4  1233.686 $B!^(B 113.363  ops/ms
-BenchWithMediaItem.writeMediaItemToFuryJavaWithCodeGen      thrpt    4  8695.119 $B!^(B  36.664  ops/ms
-BenchWithMediaItem.writeMediaItemToFuryJavaWithoutCodeGen   thrpt    4  4091.679 $B!^(B  11.203  ops/ms
-BenchWithMediaItem.writeMediaItemToFuryXlang                thrpt    4  4441.156 $B!^(B  20.416  ops/ms
-BenchWithMediaItem.writeMediaItemToJsonString               thrpt    4  1043.527 $B!^(B  23.261  ops/ms
+BenchWithMediaItem.readMediaItemFromCbor                    thrpt    4   661.358 ±  39.717  ops/ms
+BenchWithMediaItem.readMediaItemFromFuryJavaWithCodeGen     thrpt    4  6534.142 ± 368.589  ops/ms
+BenchWithMediaItem.readMediaItemFromFuryJavaWithoutCodeGen  thrpt    4  3640.171 ±  37.897  ops/ms
+BenchWithMediaItem.readMediaItemFromFuryXlang               thrpt    4  4335.869 ±  41.599  ops/ms
+BenchWithMediaItem.readMediaItemFromJsonString              thrpt    4   536.589 ±  15.837  ops/ms
+BenchWithMediaItem.writeMediaItemToCbor                     thrpt    4  1233.686 ± 113.363  ops/ms
+BenchWithMediaItem.writeMediaItemToFuryJavaWithCodeGen      thrpt    4  8695.119 ±  36.664  ops/ms
+BenchWithMediaItem.writeMediaItemToFuryJavaWithoutCodeGen   thrpt    4  4091.679 ±  11.203  ops/ms
+BenchWithMediaItem.writeMediaItemToFuryXlang                thrpt    4  4441.156 ±  20.416  ops/ms
+BenchWithMediaItem.writeMediaItemToJsonString               thrpt    4  1043.527 ±  23.261  ops/ms
 ```
