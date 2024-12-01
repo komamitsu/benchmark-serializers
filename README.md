@@ -48,3 +48,6 @@ BenchWithMediaItem.writeMediaItemToFuryJavaWithoutCodeGen   thrpt    4  4091.679
 BenchWithMediaItem.writeMediaItemToFuryXlang                thrpt    4  4441.156 ±  20.416  ops/ms
 BenchWithMediaItem.writeMediaItemToJsonString               thrpt    4  1043.527 ±  23.261  ops/ms
 ```
+
+![Screenshot from 2024-12-01 23-57-19](https://github.com/user-attachments/assets/1bb47ceb-c93e-4c3c-b95b-231d29c2b94c)
+![Screenshot from 2024-12-01 23-57-00](https://github.com/user-attachments/assets/2fadc53c-d6c2-4bb4-946c-627080436b53)
