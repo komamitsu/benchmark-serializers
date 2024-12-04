@@ -85,5 +85,5 @@ public class MediaContent
     public String getCopyright() { return _copyright; }
 
     public void setCopyright(String c) {  _copyright = c; }
-    public enum Player { JAVA, FLASH}
+    public enum Player { JAVA, FLASH }
 }
