@@ -63,6 +63,6 @@ BenchWithMediaItem.writeMediaItemToJsonWithGson                        thrpt    
 BenchWithMediaItem.writeMediaItemToJsonWithJackson                     thrpt    4  1069.781 ±   7.994  ops/ms
 ```
 
-![Screenshot from 2024-12-04 14-05-59](https://github.com/user-attachments/assets/55e39437-ea51-4c1a-b82e-5c8f5b8b228b)
-![Screenshot from 2024-12-04 14-06-25](https://github.com/user-attachments/assets/ebfd3f35-062d-480a-9cdc-072f6ce42319)
+![Screenshot from 2024-12-04 15-08-36](https://github.com/user-attachments/assets/411a5456-6e91-407f-9b0c-171892c421ef)
+![Screenshot from 2024-12-04 15-08-53](https://github.com/user-attachments/assets/a5509062-01ca-4fcc-80d6-14ded81190b8)
 
