@@ -33,20 +33,34 @@ Vendor ID:                AuthenticAMD
     ...
 ```
 
-Benchmark revision: https://github.com/komamitsu/benchmark-serializers/commit/ab980081f4e4baa9466a3575b368a5c062c44764
+Benchmark revision: https://github.com/komamitsu/benchmark-serializers/tree/89762da3d25709919f803b6268343d79bf3b52c8
 
 ```
-Benchmark                                                    Mode  Cnt     Score     Error   Units
-BenchWithMediaItem.readMediaItemFromCbor                    thrpt    4   661.358 ±  39.717  ops/ms
-BenchWithMediaItem.readMediaItemFromFuryJavaWithCodeGen     thrpt    4  6534.142 ± 368.589  ops/ms
-BenchWithMediaItem.readMediaItemFromFuryJavaWithoutCodeGen  thrpt    4  3640.171 ±  37.897  ops/ms
-BenchWithMediaItem.readMediaItemFromFuryXlang               thrpt    4  4335.869 ±  41.599  ops/ms
-BenchWithMediaItem.readMediaItemFromJsonString              thrpt    4   536.589 ±  15.837  ops/ms
-BenchWithMediaItem.writeMediaItemToCbor                     thrpt    4  1233.686 ± 113.363  ops/ms
-BenchWithMediaItem.writeMediaItemToFuryJavaWithCodeGen      thrpt    4  8695.119 ±  36.664  ops/ms
-BenchWithMediaItem.writeMediaItemToFuryJavaWithoutCodeGen   thrpt    4  4091.679 ±  11.203  ops/ms
-BenchWithMediaItem.writeMediaItemToFuryXlang                thrpt    4  4441.156 ±  20.416  ops/ms
-BenchWithMediaItem.writeMediaItemToJsonString               thrpt    4  1043.527 ±  23.261  ops/ms
+Benchmark                                                               Mode  Cnt     Score     Error   Units
+BenchWithMediaItem.readMediaItemFromCbor                               thrpt    4   672.065 ±  19.631  ops/ms
+BenchWithMediaItem.readMediaItemFromFuryJavaWithCodeGen                thrpt    4  6393.362 ±  29.240  ops/ms
+BenchWithMediaItem.readMediaItemFromFuryJavaWithCodeGenThreadSafe      thrpt    4  6344.832 ± 618.473  ops/ms
+BenchWithMediaItem.readMediaItemFromFuryJavaWithoutCodeGen             thrpt    4  3521.563 ±  47.437  ops/ms
+BenchWithMediaItem.readMediaItemFromFuryJavaWithoutCodeGenThreadSafe   thrpt    4  3543.627 ±  18.601  ops/ms
+BenchWithMediaItem.readMediaItemFromFuryXlangWithCodeGen               thrpt    4  3873.065 ± 395.235  ops/ms
+BenchWithMediaItem.readMediaItemFromFuryXlangWithCodeGenThreadSafe     thrpt    4  4459.656 ±  66.322  ops/ms
+BenchWithMediaItem.readMediaItemFromFuryXlangWithoutCodeGen            thrpt    4  2974.027 ±  54.305  ops/ms
+BenchWithMediaItem.readMediaItemFromFuryXlangWithoutCodeGenThreadSafe  thrpt    4  2922.161 ±  36.546  ops/ms
+BenchWithMediaItem.readMediaItemFromJsonWithFastjson                   thrpt    4  2288.073 ±  11.377  ops/ms
+BenchWithMediaItem.readMediaItemFromJsonWithGson                       thrpt    4  1048.306 ±   5.207  ops/ms
+BenchWithMediaItem.readMediaItemFromJsonWithJackson                    thrpt    4   560.613 ±  19.993  ops/ms
+BenchWithMediaItem.writeMediaItemToCbor                                thrpt    4  1250.170 ±  15.814  ops/ms
+BenchWithMediaItem.writeMediaItemToFuryJavaWithCodeGen                 thrpt    4  8176.200 ±  83.909  ops/ms
+BenchWithMediaItem.writeMediaItemToFuryJavaWithCodeGenThreadSafe       thrpt    4  8310.323 ±  61.260  ops/ms
+BenchWithMediaItem.writeMediaItemToFuryJavaWithoutCodeGen              thrpt    4  3883.194 ±  18.826  ops/ms
+BenchWithMediaItem.writeMediaItemToFuryJavaWithoutCodeGenThreadSafe    thrpt    4  4094.552 ±  30.858  ops/ms
+BenchWithMediaItem.writeMediaItemToFuryXlangWithCodeGen                thrpt    4  4181.741 ±  76.932  ops/ms
+BenchWithMediaItem.writeMediaItemToFuryXlangWithCodeGenThreadSafe      thrpt    4  4520.429 ±  52.837  ops/ms
+BenchWithMediaItem.writeMediaItemToFuryXlangWithoutCodeGen             thrpt    4  3740.068 ±  28.866  ops/ms
+BenchWithMediaItem.writeMediaItemToFuryXlangWithoutCodeGenThreadSafe   thrpt    4  3508.202 ±  77.035  ops/ms
+BenchWithMediaItem.writeMediaItemToJsonWithFastjson                    thrpt    4  2937.689 ±   7.646  ops/ms
+BenchWithMediaItem.writeMediaItemToJsonWithGson                        thrpt    4   456.343 ±  10.369  ops/ms
+BenchWithMediaItem.writeMediaItemToJsonWithJackson                     thrpt    4  1069.781 ±   7.994  ops/ms
 ```
 
 ![Screenshot from 2024-12-01 23-59-43](https://github.com/user-attachments/assets/1a0f25ab-fe44-422f-bc29-49be472de256)
